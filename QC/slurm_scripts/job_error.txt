@@ -1,0 +1,7 @@
+TrimmomaticPE: Started with arguments:
+ -phred33 ERR164596_1.fq.gz ERR164596_2.fq.gz ERR164596_1_trimmed.fq.gz ERR164596_1_unpaired.fq.gz ERR164596_2_trimmed.fq.gz ERR164596_2_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10:2:True LEADING:20 TRAILING:20 HEADCROP:10 SLIDINGWINDOW:4:20 MINLEN:36
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10939116 Both Surviving: 6956572 (63.59%) Forward Only Surviving: 1564744 (14.30%) Reverse Only Surviving: 508765 (4.65%) Dropped: 1909035 (17.45%)
+TrimmomaticPE: Completed successfully
